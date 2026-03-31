@@ -29,6 +29,7 @@
 - 3.[matplotlib学习之基本使用](matplotlib/)(目录名：matplotlib)
 - 4.[Sklearn入门经典案例](pyparis-2018-sklearn/)(目录名：pyparis-2018-sklearn)
 - 5.[两天学会pandas](pandas/)(目录名：pandas)
+- 6.[PDF 文件读取示例脚本](python-start/read_pdf.py)（依赖 `pypdf`，可直接读取 PDF 文本内容）
 
 
 
