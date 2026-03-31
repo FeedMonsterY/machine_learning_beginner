@@ -59,6 +59,36 @@ AI 初学者最大的问题就是：
 
 **资料太多！看不完！！不知道如何取舍！！**
 
+## PDF 文件分析工具
+
+仓库根目录新增了一个简单的 PDF 分析脚本 `/home/runner/work/machine_learning_beginner/machine_learning_beginner/analyze_pdf.py`，可以快速查看 PDF 的页数、元数据、文本页数量、全文预览和逐页统计信息。
+
+### 使用方法
+
+先安装依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+再执行分析：
+
+```bash
+python analyze_pdf.py /path/to/file.pdf
+```
+
+如果希望输出 JSON：
+
+```bash
+python analyze_pdf.py /path/to/file.pdf --json
+```
+
+如果 PDF 已加密，可以额外传入密码：
+
+```bash
+python analyze_pdf.py /path/to/file.pdf --password your-password
+```
+
 我把 公众号创办以来的原创文章进行整理，文章适合**本科、硕士以及刚接触机器学习的博士**。
 
 学完这些文章学完以后，就基本入门了。
