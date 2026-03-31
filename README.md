@@ -61,7 +61,7 @@ AI 初学者最大的问题就是：
 
 ## PDF 文件分析工具
 
-仓库根目录新增了一个简单的 PDF 分析脚本 `/home/runner/work/machine_learning_beginner/machine_learning_beginner/analyze_pdf.py`，可以快速查看 PDF 的页数、元数据、文本页数量、全文预览和逐页统计信息。
+仓库根目录新增了一个简单的 PDF 分析脚本 `analyze_pdf.py`，可以快速查看 PDF 的页数、元数据、文本页数量、全文预览和逐页统计信息。
 
 ### 使用方法
 
