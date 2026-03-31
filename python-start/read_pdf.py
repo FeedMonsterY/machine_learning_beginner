@@ -22,7 +22,7 @@ def read_pdf_text(pdf_path: Path, password: str | None = None) -> str:
         if not password:
             raise ValueError("PDF 已加密，请使用 --password 提供密码。")
         if reader.decrypt(password) == 0:
-            raise ValueError("PDF 密码不正确，或当前文件使用了暂不支持的加密方式。")
+            raise ValueError("无法解密 PDF，请确认密码是否正确。")
 
     pages = []
     for page_number, page in enumerate(reader.pages, start=1):
